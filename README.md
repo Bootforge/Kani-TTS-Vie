@@ -50,6 +50,8 @@ uv sync
 
 ## Cách sử dụng
 
+> ⚠️ **Lưu ý quan trọng:** Văn bản đầu vào nên **ngắn hơn 250 ký tự**. Nếu dài hơn, quá trình inference có thể cho kết quả sai hoặc không ổn định. Gradio demo đã giới hạn sẵn, nhưng khi gọi API hoặc script riêng bạn cũng nên tuân thủ giới hạn này.
+
 ### Local Installation
 
 Đây là cách thiết lập môi trường cục bộ, khuyến nghị sử dụng **uv** để cài đặt và chạy:
@@ -72,6 +74,16 @@ uv run uvicorn server:app
 * `finetune/kani-tts-vi-finetune.ipynb` – Code **tinh chỉnh LoRA** cho mô hình Kani TTS Vie.
 
 Mở chúng bằng môi trường Jupyter sau khi kích hoạt virtual environment.
+
+### Gradio Demo
+
+Nếu muốn thử nhanh giao diện web đơn giản, bạn có thể chạy ứng dụng Gradio đi kèm:
+
+```bash
+uv run python gradio_app.py
+```
+
+Ứng dụng sẽ khởi động tại `http://0.0.0.0:7860` (hoặc cổng được cấu hình qua biến môi trường `PORT`). Chọn giọng đọc, nhập văn bản và bấm **"🎵 Tạo giọng nói"** để nghe kết quả.
 
 ## Đóng góp
 
