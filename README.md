@@ -40,10 +40,9 @@ Kho lưu trữ này hỗ trợ cả **script chạy cục bộ** và các **demo
 
 ## Yêu cầu cài đặt
 
-1. **Python 3.12** (hoặc phiên bản trong `.python-version`).
+1. **Python 3.12**
 2. **Driver GPU + CUDA** tương thích với PyTorch.
 3. **ffmpeg** (tùy chọn nhưng khuyến nghị cho xử lý audio).
-4. **Token Hugging Face** có quyền truy cập checkpoints.
 
 Cài đặt dependencies:
 
@@ -106,6 +105,7 @@ Chào đón mọi đóng góp!
 
 Dự án này phát hành theo [Apache License 2.0](LICENSE).
 Kiểm tra giấy phép các mô hình/dataset bên thứ ba trước khi phân phối lại.
+
 
 
 
