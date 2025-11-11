@@ -16,16 +16,19 @@ Kho lưu trữ này hỗ trợ cả **script chạy cục bộ** và các **demo
 
 ## Giọng đọc hỗ trợ
 
-| Ngôn ngữ          | Giọng đọc                                                                          |
+Nghe mẫu sample tại đây: **[Mẫu Giọng Demo (Inferred)]**(https://huggingface.co/pnnbao-ump/kani-tts-370m-vie)
+
+| Ngôn ngữ          | Giọng đọc                                                                          |
 | ----------------- | ---------------------------------------------------------------------------------- |
-| Tiếng Việt        | Khoa (Nam Bắc), Hùng (Nam Nam), Trinh (Nữ Nam)                                     |
-| Tiếng Anh         | David (British), Puck (Gemini), Kore (Gemini), Andrew, Jenny (Irish), Simon, Katie |
-| Tiếng Hàn         | Seulgi                                                                             |
-| Tiếng Đức         | Bert, Thorsten (Hessisch)                                                          |
-| Tiếng Tây Ban Nha | Maria                                                                              |
-| Tiếng Trung       | Mei (Cantonese), Ming (Shanghai)                                                   |
-| Tiếng Ả Rập       | Karim, Nur                                                                         |
-| Trung lập         | Không có ID giọng (`None`)                                                         |
+| Tiếng Việt        | Khoa (Nam Bắc), Hùng (Nam Nam), Trinh (Nữ Nam)                                     |
+| Tiếng Anh         | David (British), Puck (Gemini), Kore (Gemini), Andrew, Jenny (Irish), Simon, Katie |
+| Tiếng Hàn         | Seulgi                                                                             |
+| Tiếng Đức         | Bert, Thorsten (Hessisch)                                                          |
+| Tiếng Tây Ban Nha | Maria                                                                              |
+| Tiếng Trung       | Mei (Cantonese), Ming (Shanghai)                                                   |
+| Tiếng Ả Rập       | Karim, Nur                                                                         |
+
+---
 
 
 ## Cấu trúc kho lưu trữ
@@ -95,6 +98,7 @@ Chào đón mọi đóng góp!
 
 Dự án này phát hành theo [Apache License 2.0](LICENSE).
 Kiểm tra giấy phép các mô hình/dataset bên thứ ba trước khi phân phối lại.
+
 
 
 
