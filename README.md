@@ -1,3 +1,5 @@
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/pnnbao97/Kani-TTS-Vie)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model-yellow)](https://huggingface.co/pnnbao-ump/kani-tts-370m-vie)
 # 😻 Kani TTS Vie
 <img width="500" height="500" alt="s83RYjg6BCrSPTNNXMu4u" src="https://github.com/user-attachments/assets/11384214-379c-4872-b464-c417d3b57458" />
 
@@ -102,4 +104,5 @@ Chào đón mọi đóng góp!
 
 Dự án này phát hành theo [Apache License 2.0](LICENSE).
 Kiểm tra giấy phép các mô hình/dataset bên thứ ba trước khi phân phối lại.
+
 
